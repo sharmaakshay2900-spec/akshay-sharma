@@ -1,0 +1,98 @@
+[
+  {
+    "id": "hosp_001",
+    "name": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "type": "Government - Autonomous Premier Institute",
+    "departments": ["Cardiology", "Neurology", "Hepatology", "Pulmonary Medicine", "Nephrology", "Pediatrics", "Orthopedics"],
+    "specialties": ["Advanced Hepatology", "Interventional Cardiology", "Organ Transplantation", "Neuro-trauma"],
+    "contact": "Demo reference entry – Verify through official PGIMER Chandigarh website.",
+    "website": "https://pgimer.edu.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "hosp_002",
+    "name": "National Institute of Mental Health and Neuro-Sciences (NIMHANS)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": ["Neurology", "Neurosurgery", "Psychiatry", "Neuropathology", "Neuroimaging"],
+    "specialties": ["Brain & Spine Disorders", "Comprehensive Stroke Care", "Clinical Neuropsychology", "Movement Disorders"],
+    "contact": "Demo reference entry – Official NIMHANS website for patient helpdesk.",
+    "website": "https://nimhans.ac.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "hosp_003",
+    "name": "Jawaharlal Institute of Postgraduate Medical Education & Research (JIPMER)",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": ["Medicine", "Cardiology", "Surgical Gastroenterology", "Pediatrics", "Medical Oncology"],
+    "specialties": ["Emergency Medical Sciences", "Microvascular Surgery", "Comprehensive Cancer Care"],
+    "contact": "Demo reference entry – Inquire on official JIPMER website.",
+    "website": "https://jipmer.edu.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "hosp_004",
+    "name": "Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGIMS)",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "type": "Government - State Autonomous Super-Specialty Institute",
+    "departments": ["Gastroenterology", "Cardiology", "Endocrinology", "Genetics", "Nephrology", "Neurology"],
+    "specialties": ["Liver Transplant", "Endocrine Surgery", "Medical Genetics", "Cardiac Electrophysiology"],
+    "contact": "Demo reference entry – Verify official hospital appointment line.",
+    "website": "https://sgpgims.org.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "hosp_005",
+    "name": "Tata Memorial Hospital (TMH)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "type": "Government - Department of Atomic Energy",
+    "departments": ["Surgical Oncology", "Medical Oncology", "Radiation Oncology", "Digestive Diseases", "Palliative Medicine"],
+    "specialties": ["Comprehensive Cancer Care", "Bone Marrow Transplantation", "Precision Radiation Therapy"],
+    "contact": "Demo reference entry – Refer to official TMH website for registration.",
+    "website": "https://tmc.gov.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "hosp_006",
+    "name": "Christian Medical College (CMC)",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "type": "Private / Non-Profit Teaching Hospital",
+    "departments": ["Cardiology", "Hematology", "Gastrointestinal Sciences", "Endocrinology", "Rheumatology"],
+    "specialties": ["Stem Cell Therapy", "Pediatric Cardiac Surgery", "Advanced Autoimmune Treatment"],
+    "contact": "Demo reference entry – Check official CMC Vellore booking desk.",
+    "website": "https://www.cmch-vellore.edu",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "hosp_007",
+    "name": "King George's Medical University (KGMU)",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "type": "Government Medical University & Hospital",
+    "departments": ["General Medicine", "Pulmonary Medicine", "Cardiology", "Trauma Care", "Orthopedics"],
+    "specialties": ["Trauma & Acute Resuscitation", "Respiratory Intensive Care", "Geriatric Medicine"],
+    "contact": "Demo reference entry – Verify via official KGMU portal.",
+    "website": "https://kgmu.org",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "hosp_008",
+    "name": "Safdarjung Hospital & VMMC",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "type": "Government - Central Government Hospital",
+    "departments": ["Burns & Plastic Surgery", "Orthopedics", "Cardiology", "Pediatrics", "Emergency Services"],
+    "specialties": ["Largest Burns Care Center", "Sports Injury Center", "Polytrauma Resuscitation"],
+    "contact": "Demo reference entry – Consult official portal for patient queue.",
+    "website": "https://vmmc-sjh.nic.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  }
+]

@@ -1,0 +1,122 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // Validator for User profile
+    function isValidUser(data) {
+      return data.keys().hasAll(['id', 'email', 'createdAt']) &&
+        data.id is string && data.id.size() <= 128 &&
+        data.email is string && data.email.size() <= 256 &&
+        (!('displayName' in data) || (data.displayName is string && data.displayName.size() <= 128)) &&
+        (!('photoURL' in data) || (data.photoURL is string && data.photoURL.size() <= 512));
+    }
+
+    // Validator for SavedReport
+    function isValidReport(data) {
+      return data.keys().hasAll(['id', 'userId', 'patientName', 'title', 'createdAt']) &&
+        data.id is string && data.id.size() <= 128 &&
+        data.userId is string && data.userId.size() <= 128 &&
+        data.patientName is string && data.patientName.size() <= 128 &&
+        data.title is string && data.title.size() <= 256 &&
+        (!('symptoms' in data) || (data.symptoms is string && data.symptoms.size() <= 2048)) &&
+        (!('vitals' in data) || (data.vitals is string && data.vitals.size() <= 1024)) &&
+        (!('diagnosis' in data) || (data.diagnosis is string && data.diagnosis.size() <= 1024)) &&
+        (!('recommendations' in data) || (data.recommendations is string && data.recommendations.size() <= 4096)) &&
+        (!('doctorNotes' in data) || (data.doctorNotes is string && data.doctorNotes.size() <= 4096));
+    }
+
+    // Validator for SymptomCheck
+    function isValidSymptomCheck(data) {
+      return data.keys().hasAll(['id', 'userId', 'topCondition', 'createdAt']) &&
+        data.id is string && data.id.size() <= 128 &&
+        data.userId is string && data.userId.size() <= 128 &&
+        data.topCondition is string && data.topCondition.size() <= 128 &&
+        (!('topConfidence' in data) || data.topConfidence is number) &&
+        (!('urgencyGuidance' in data) || (data.urgencyGuidance is string && data.urgencyGuidance.size() <= 512)) &&
+        (!('clinicalExplanation' in data) || (data.clinicalExplanation is string && data.clinicalExplanation.size() <= 4096));
+    }
+
+    // Validator for MCQResult
+    function isValidMCQResult(data) {
+      return data.keys().hasAll(['id', 'userId', 'score', 'totalQuestions', 'createdAt']) &&
+        data.id is string && data.id.size() <= 128 &&
+        data.userId is string && data.userId.size() <= 128 &&
+        data.score is number &&
+        data.totalQuestions is number;
+    }
+
+    // Collection: users
+    match /users/{userId} {
+      allow get: if isOwner(userId);
+      allow list: if false; // Disallow user enumeration
+      allow create: if isOwner(userId) && isValidUser(incoming());
+      allow update: if isOwner(userId) && isValidUser(incoming()) &&
+        incoming().diff(existing()).affectedKeys().hasOnly(['displayName', 'photoURL', 'updatedAt']);
+      allow delete: if isOwner(userId);
+    }
+
+    // Collection: reports
+    match /reports/{reportId} {
+      allow get: if isSignedIn() && isValidId(reportId) && existing().userId == request.auth.uid;
+      allow list: if isSignedIn();
+      allow create: if isSignedIn() && isValidId(reportId) &&
+        incoming().userId == request.auth.uid &&
+        isValidReport(incoming());
+      allow update: if isSignedIn() && isValidId(reportId) &&
+        existing().userId == request.auth.uid &&
+        incoming().userId == request.auth.uid &&
+        incoming().id == existing().id &&
+        incoming().createdAt == existing().createdAt &&
+        isValidReport(incoming());
+      allow delete: if isSignedIn() && isValidId(reportId) && existing().userId == request.auth.uid;
+    }
+
+    // Collection: symptom_history
+    match /symptom_history/{historyId} {
+      allow get: if isSignedIn() && isValidId(historyId) && existing().userId == request.auth.uid;
+      allow list: if isSignedIn();
+      allow create: if isSignedIn() && isValidId(historyId) &&
+        incoming().userId == request.auth.uid &&
+        isValidSymptomCheck(incoming());
+      allow update: if false;
+      allow delete: if isSignedIn() && isValidId(historyId) && existing().userId == request.auth.uid;
+    }
+
+    // Collection: mcq_results
+    match /mcq_results/{resultId} {
+      allow get: if isSignedIn() && isValidId(resultId) && existing().userId == request.auth.uid;
+      allow list: if isSignedIn();
+      allow create: if isSignedIn() && isValidId(resultId) &&
+        incoming().userId == request.auth.uid &&
+        isValidMCQResult(incoming());
+      allow update: if false;
+      allow delete: if isSignedIn() && isValidId(resultId) && existing().userId == request.auth.uid;
+    }
+  }
+}

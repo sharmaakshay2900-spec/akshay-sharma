@@ -1,0 +1,260 @@
+[
+  {
+    "id": "aiims_001",
+    "name": "AIIMS New Delhi (All India Institute of Medical Sciences)",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "Cardiology",
+      "Neurology",
+      "Pulmonary Medicine",
+      "Gastroenterology",
+      "Medical Oncology",
+      "Endocrinology",
+      "Rheumatology",
+      "Emergency Medicine",
+      "Orthopedics",
+      "Nephrology"
+    ],
+    "specialties": [
+      "Cardiothoracic & Vascular Surgery",
+      "Neurosciences",
+      "Organ Transplantation",
+      "Cancer Care (Dr. BRA IRCH)",
+      "Pediatric Specialties"
+    ],
+    "contact": "Demo reference entry – Please consult official AIIMS Delhi portal for operational tele-consultation and OPD registrations.",
+    "website": "https://www.aiims.edu",
+    "establishedYear": 1956,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_002",
+    "name": "AIIMS Jodhpur",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "Internal Medicine",
+      "Cardiology",
+      "Pulmonology",
+      "Neurology",
+      "General Surgery",
+      "Orthopedics",
+      "Pediatrics",
+      "Dermatology"
+    ],
+    "specialties": [
+      "Cardiovascular Care",
+      "Trauma & Critical Care",
+      "Radiation Oncology",
+      "Nephrology & Dialysis"
+    ],
+    "contact": "Demo reference entry – Verify current OPD hours via official portal.",
+    "website": "https://www.aiimsjodhpur.edu.in",
+    "establishedYear": 2012,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_003",
+    "name": "AIIMS Rishikesh",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "General Medicine",
+      "Cardiology",
+      "Pulmonary Medicine",
+      "Neurology",
+      "Oncology",
+      "Orthopedics",
+      "ENT",
+      "Ophthalmology"
+    ],
+    "specialties": [
+      "High Altitude & Disaster Medicine",
+      "Cardiothoracic Surgery",
+      "Neurosurgery",
+      "Robotic Surgery"
+    ],
+    "contact": "Demo reference entry – Verify official hospital helplines on the web portal.",
+    "website": "https://aiimsrishikesh.edu.in",
+    "establishedYear": 2012,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_004",
+    "name": "AIIMS Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "Internal Medicine",
+      "Cardiology",
+      "Gastroenterology",
+      "Endocrinology",
+      "Nephrology",
+      "Pediatrics",
+      "Psychiatry"
+    ],
+    "specialties": [
+      "Interventional Cardiology",
+      "Minimally Invasive Surgery",
+      "Hemato-Oncology",
+      "Sleep Medicine"
+    ],
+    "contact": "Demo reference entry – Verify current appointment schedule on AIIMS Bhopal portal.",
+    "website": "https://aiimsbhopal.edu.in",
+    "establishedYear": 2012,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_005",
+    "name": "AIIMS Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "General Medicine",
+      "Cardiology",
+      "Medical Oncology",
+      "Neurology",
+      "Urology",
+      "Burns & Plastic Surgery",
+      "Anesthesiology"
+    ],
+    "specialties": [
+      "Comprehensive Cancer Center",
+      "Cardiac Catheterization",
+      "Advanced Renal Care",
+      "Level 1 Trauma Care"
+    ],
+    "contact": "Demo reference entry – For registration, visit official AIIMS Bhubaneswar portal.",
+    "website": "https://aiimsbhubaneswar.nic.in",
+    "establishedYear": 2012,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_006",
+    "name": "AIIMS Patna",
+    "city": "Patna",
+    "state": "Bihar",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "General Medicine",
+      "Cardiology",
+      "Pulmonology",
+      "Gastroenterology",
+      "Surgical Oncology",
+      "Orthopedics",
+      "Pathology"
+    ],
+    "specialties": [
+      "Tertiary Critical Care",
+      "Advanced Laparoscopic Surgery",
+      "Neonatal Intensive Care (NICU)"
+    ],
+    "contact": "Demo reference entry – Check official website for patient services.",
+    "website": "https://aiimspatna.edu.in",
+    "establishedYear": 2012,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_007",
+    "name": "AIIMS Raipur",
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "General Medicine",
+      "Neurology",
+      "Cardiology",
+      "Nephrology",
+      "Dermatology",
+      "Pediatrics",
+      "Radiology"
+    ],
+    "specialties": [
+      "Sickle Cell Disease Care",
+      "Advanced Trauma Management",
+      "Interventional Radiology"
+    ],
+    "contact": "Demo reference entry – Please access official AIIMS Raipur website.",
+    "website": "https://www.aiimsraipur.edu.in",
+    "establishedYear": 2012,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_008",
+    "name": "AIIMS Nagpur",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "General Medicine",
+      "Cardiology",
+      "Pulmonary Medicine",
+      "Neurology",
+      "Orthopedics",
+      "Endocrinology"
+    ],
+    "specialties": [
+      "Multi-organ Critical Care",
+      "Advanced Endoscopy",
+      "Modern Radiotherapy Suite"
+    ],
+    "contact": "Demo reference entry – Inquire on official AIIMS Nagpur website.",
+    "website": "https://aiimsnagpur.edu.in",
+    "establishedYear": 2018,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_009",
+    "name": "AIIMS Kalyani",
+    "city": "Kalyani",
+    "state": "West Bengal",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "Medicine",
+      "Pediatrics",
+      "General Surgery",
+      "Obstetrics & Gynecology",
+      "Dermatology",
+      "Cardiology"
+    ],
+    "specialties": [
+      "Community Outreach Care",
+      "Telemedicine",
+      "Day Care Chemotherapy"
+    ],
+    "contact": "Demo reference entry – Official portal for consultation appointments.",
+    "website": "https://aiimskalyani.edu.in",
+    "establishedYear": 2019,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "aiims_010",
+    "name": "AIIMS Mangalagiri",
+    "city": "Mangalagiri (Guntur/Vijayawada)",
+    "state": "Andhra Pradesh",
+    "type": "Government - Institute of National Importance (INI)",
+    "departments": [
+      "Internal Medicine",
+      "General Surgery",
+      "Pediatrics",
+      "Pulmonary Medicine",
+      "Cardiology",
+      "Neurology"
+    ],
+    "specialties": [
+      "Comprehensive Outpatient Services",
+      "Dialysis Center",
+      "Diagnostic Imaging"
+    ],
+    "contact": "Demo reference entry – Official portal for appointment scheduling.",
+    "website": "https://www.aiimsmangalagiri.edu.in",
+    "establishedYear": 2018,
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  }
+]

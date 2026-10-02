@@ -1,0 +1,50 @@
+[
+  {
+    "id": "mc_001",
+    "name": "Institute of Post-Graduate Medical Education and Research (IPGMER & SSKM)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "type": "Government Tertiary Center",
+    "departments": ["Cardiology", "Neurology", "Nephrology", "General Medicine"],
+    "specialties": ["Kidney Transplantation", "Emergency Triage", "Tropical Medicine"],
+    "contact": "Demo reference entry – Verify via official hospital administration.",
+    "website": "https://www.ipgmer.gov.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "mc_002",
+    "name": "Madras Medical College & Rajiv Gandhi Government General Hospital",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "type": "Government Tertiary Medical Center",
+    "departments": ["Internal Medicine", "Cardiovascular Care", "Gastroenterology", "Pulmonology"],
+    "specialties": ["Vascular Surgery", "Coronary Care", "Renal Dialysis"],
+    "contact": "Demo reference entry – Verify via official RGGGH portal.",
+    "website": "https://mmc.ac.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "mc_003",
+    "name": "Nizam's Institute of Medical Sciences (NIMS)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "type": "Government State Autonomous Center",
+    "departments": ["Cardiology", "Rheumatology", "Medical Oncology", "Neurology"],
+    "specialties": ["Specialized Rheumatology Clinic", "Cardiac Electrophysiology"],
+    "contact": "Demo reference entry – Verify via official NIMS portal.",
+    "website": "https://nims.edu.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  },
+  {
+    "id": "mc_004",
+    "name": "Sher-i-Kashmir Institute of Medical Sciences (SKIMS)",
+    "city": "Srinagar",
+    "state": "Jammu & Kashmir",
+    "type": "Government Autonomous Super-Specialty Institute",
+    "departments": ["Cardiovascular Thoracic Surgery", "Endocrinology", "Neurology", "Gastroenterology"],
+    "specialties": ["High-Altitude Pathology", "Endocrine Tumors", "Critical Care"],
+    "contact": "Demo reference entry – Verify via official SKIMS website.",
+    "website": "https://skims.ac.in",
+    "disclaimer": "Educational/demo reference data – verify current information from official sources."
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "spec_001",
+    "specialty": "General Physician / Internal Medicine",
+    "description": "Medical specialty dealing with the prevention, diagnosis, and non-surgical treatment of adult internal diseases, systemic infections, and acute common conditions.",
+    "commonConditions": ["Influenza", "Common Cold", "Fever of Unknown Origin", "Hypertension initial care", "Fatigue Syndrome", "Gastroenteritis"],
+    "urgencyAssessment": "First point of medical triage for undifferentiated symptoms."
+  },
+  {
+    "id": "spec_002",
+    "specialty": "Cardiology",
+    "description": "Medical specialty dealing with disorders of the heart and blood vessels, coronary artery disease, heart failure, and arrhythmias.",
+    "commonConditions": ["Coronary Artery Disease", "Hypertension", "Heart Failure", "Arrhythmia", "Angina Pectoris"],
+    "urgencyAssessment": "Sudden onset chest pain, arm radiating numbness, and acute shortness of breath demand emergency care."
+  },
+  {
+    "id": "spec_003",
+    "specialty": "Pulmonology / Respiratory Medicine",
+    "description": "Specialty focusing on diseases affecting the respiratory tract, lungs, and bronchial tubes.",
+    "commonConditions": ["Asthma", "Chronic Obstructive Pulmonary Disease (COPD)", "Pneumonia", "Bronchitis", "Sinusitis with lower tract involvement"],
+    "urgencyAssessment": "Severe dyspnea, cyanosis, and falling blood oxygen saturation require urgent clinical attention."
+  },
+  {
+    "id": "spec_004",
+    "specialty": "Endocrinology",
+    "description": "Specialty focused on the endocrine system, hormones, thyroid glands, adrenal glands, and metabolic regulation.",
+    "commonConditions": ["Type 1 & 2 Diabetes Mellitus", "Hypothyroidism", "Hyperthyroidism", "Metabolic Syndrome", "Polycystic Ovary Syndrome (PCOS)"],
+    "urgencyAssessment": "Diabetic ketoacidosis or thyroid storm represent metabolic emergencies."
+  },
+  {
+    "id": "spec_005",
+    "specialty": "Neurology",
+    "description": "Medical specialty dealing with disorders of the central and peripheral nervous system, brain, and spinal cord.",
+    "commonConditions": ["Migraine & Tension Headaches", "Epilepsy", "Stroke / TIA", "Parkinson's Disease", "Peripheral Neuropathy"],
+    "urgencyAssessment": "Sudden facial drooping, speech slurring, and unilateral motor weakness require immediate stroke protocol."
+  },
+  {
+    "id": "spec_006",
+    "specialty": "Gastroenterology",
+    "description": "Focuses on the digestive system, stomach, intestines, liver, gallbladder, and pancreas.",
+    "commonConditions": ["Gastroesophageal Reflux Disease (GERD)", "Peptic Ulcer Disease", "Irritable Bowel Syndrome (IBS)", "Fatty Liver Disease", "Hepatitis"],
+    "urgencyAssessment": "Hematemesis, black tarry stools, or severe acute abdominal rigidity are medical emergencies."
+  },
+  {
+    "id": "spec_007",
+    "specialty": "Rheumatology",
+    "description": "Specialty dedicated to diagnosing and therapy of rheumatic diseases, arthritis, musculoskeletal conditions, and autoimmune disorders.",
+    "commonConditions": ["Rheumatoid Arthritis", "Osteoarthritis", "Gout", "Lupus (SLE)", "Ankylosing Spondylitis"],
+    "urgencyAssessment": "Joint erythema with high fever and sudden effusion indicates potential septic arthritis."
+  },
+  {
+    "id": "spec_008",
+    "specialty": "Dermatology",
+    "description": "Branch of medicine dealing with the skin, nails, hair, cutaneous pathologies, and cosmetic skin disorders.",
+    "commonConditions": ["Eczema / Atopic Dermatitis", "Psoriasis", "Acne Vulgaris", "Contact Dermatitis", "Fungal Skin Infections"],
+    "urgencyAssessment": "Rapidly spreading rash with fever or mucosal involvement indicates severe cutaneous adverse reaction."
+  },
+  {
+    "id": "spec_009",
+    "specialty": "Infectious Disease",
+    "description": "Specialized branch addressing viral, bacterial, fungal, and parasitic infections including tropical fevers.",
+    "commonConditions": ["Dengue Fever", "Malaria", "Typhoid", "Tuberculosis", "COVID-19 Complications"],
+    "urgencyAssessment": "Septic shock, persistent high fevers, and thrombocytopenia require critical hospital management."
+  },
+  {
+    "id": "spec_010",
+    "specialty": "Orthopedics",
+    "description": "Surgical and rehabilitation specialty for bones, joints, ligaments, tendons, and spine biomechanics.",
+    "commonConditions": ["Bone Fractures", "Lumbar Spondylosis", "Ligament Tears", "Carpal Tunnel Syndrome"],
+    "urgencyAssessment": "Compound fractures, neurovascular compromise, and joint dislocation necessitate emergency intervention."
+  },
+  {
+    "id": "spec_011",
+    "specialty": "Ophthalmology & ENT",
+    "description": "Care for vision, ocular health, ear, nose, throat, and sinus systems.",
+    "commonConditions": ["Acute Sinusitis", "Allergic Rhinitis", "Otitis Media", "Conjunctivitis", "Tonsillitis"],
+    "urgencyAssessment": "Sudden loss of vision, severe eye pain with haloes, or airway-compromised throat swelling are emergencies."
+  },
+  {
+    "id": "spec_012",
+    "specialty": "Nephrology / Urology",
+    "description": "Specialty managing renal function, kidney stones, urinary tract infections, and fluid-electrolyte balance.",
+    "commonConditions": ["Nephrolithiasis (Kidney Stones)", "Urinary Tract Infection", "Chronic Kidney Disease", "Acute Glomerulonephritis"],
+    "urgencyAssessment": "Anuria, acute renal colic, and severe gross hematuria require urgent urological assessment."
+  }
+]

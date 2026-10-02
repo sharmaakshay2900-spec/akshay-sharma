@@ -1,0 +1,66 @@
+[
+  {
+    "id": "doc_spec_001",
+    "specialty": "Internal Medicine / General Physician",
+    "department": "Department of Internal Medicine",
+    "description": "Primary adult medical care, initial evaluation of complex multiorgan symptoms, systemic infection management.",
+    "qualifications": "MD (General Medicine) / DNB / MRCP",
+    "typicalProcedures": ["Clinical triaging", "Preventive health screening", "Chronic metabolic condition stabilization", "Diagnostic workup"]
+  },
+  {
+    "id": "doc_spec_002",
+    "specialty": "Cardiology",
+    "department": "Department of Cardiology & Cardiovascular Sciences",
+    "description": "Evaluation of ischemic heart disease, heart failure, cardiac arrhythmias, and structural heart defects.",
+    "qualifications": "DM (Cardiology) / DNB (Cardiology) / FACC",
+    "typicalProcedures": ["Electrocardiogram (ECG)", "Echocardiography", "Treadmill stress test (TMT)", "Coronary angiography review"]
+  },
+  {
+    "id": "doc_spec_003",
+    "specialty": "Pulmonology",
+    "department": "Department of Pulmonary Medicine & Sleep Disorders",
+    "description": "Care for bronchial asthma, COPD, pneumonia, pleural diseases, and sleep apnea.",
+    "qualifications": "MD / DM (Pulmonary Medicine)",
+    "typicalProcedures": ["Spirometry / Pulmonary Function Tests (PFT)", "Bronchoscopy", "Fractional exhaled nitric oxide (FeNO)"]
+  },
+  {
+    "id": "doc_spec_004",
+    "specialty": "Endocrinology & Diabetology",
+    "department": "Department of Endocrinology & Metabolism",
+    "description": "Specialized care for diabetes, thyroid pathology, pituitary disorders, and adrenal diseases.",
+    "qualifications": "DM (Endocrinology) / Fellowship in Diabetology",
+    "typicalProcedures": ["Continuous glucose monitoring analysis", "Thyroid fine needle aspiration biopsy", "Endocrine hormone stimulation tests"]
+  },
+  {
+    "id": "doc_spec_005",
+    "specialty": "Neurology",
+    "department": "Department of Neurosciences",
+    "description": "Expert diagnosis and care for stroke, headache syndromes, Parkinsonism, neuropathy, and demyelinating diseases.",
+    "qualifications": "DM (Neurology) / DNB (Neurology)",
+    "typicalProcedures": ["Electroencephalogram (EEG)", "Nerve Conduction Study (NCS/EMG)", "Lumbar puncture analysis"]
+  },
+  {
+    "id": "doc_spec_006",
+    "specialty": "Gastroenterology & Hepatology",
+    "department": "Department of Gastroenterology",
+    "description": "Management of upper GI disorders, hepatobiliary conditions, inflammatory bowel disease, and chronic liver ailments.",
+    "qualifications": "DM (Gastroenterology) / DNB (Gastroenterology)",
+    "typicalProcedures": ["Upper Gastrointestinal Endoscopy", "Colonoscopy", "Liver FibroScan", "Capsule Endoscopy"]
+  },
+  {
+    "id": "doc_spec_007",
+    "specialty": "Rheumatology & Clinical Immunology",
+    "department": "Department of Rheumatology",
+    "description": "Management of systemic autoimmune disorders, seropositive arthritis, vasculitis, and systemic lupus.",
+    "qualifications": "DM (Clinical Immunology & Rheumatology)",
+    "typicalProcedures": ["Synovial fluid aspiration", "Musculoskeletal ultrasound", "Biologic infusion monitoring"]
+  },
+  {
+    "id": "doc_spec_008",
+    "specialty": "Dermatology, Venereology & Leprosy",
+    "department": "Department of Dermatology",
+    "description": "Diagnosis and management of skin eruptions, chronic psoriasis, eczematous conditions, and hair/nail disorders.",
+    "qualifications": "MD (Dermatology, Venereology & Leprosy)",
+    "typicalProcedures": ["Dermoscopy", "Skin punch biopsy", "Patch testing for contact allergies", "Cryotherapy"]
+  }
+]

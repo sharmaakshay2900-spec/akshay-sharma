@@ -1,0 +1,1419 @@
+[
+  {
+    "id": 1,
+    "category": "Cardiology",
+    "question": "What is the normal resting adult heart rate range in beats per minute (bpm)?",
+    "options": [
+      "40-60 bpm",
+      "60-100 bpm",
+      "100-140 bpm",
+      "120-160 bpm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A normal resting heart rate for healthy adults ranges from 60 to 100 beats per minute. Rates below 60 are termed bradycardia, while rates exceeding 100 are termed tachycardia."
+  },
+  {
+    "id": 2,
+    "category": "Cardiology",
+    "question": "Which blood vessel carries oxygenated blood from the lungs directly into the left atrium of the heart?",
+    "options": [
+      "Superior vena cava",
+      "Pulmonary artery",
+      "Pulmonary veins",
+      "Aorta"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pulmonary veins are the only veins in the postnatal human body that transport oxygen-rich blood, carrying it from the pulmonary capillary bed into the left atrium."
+  },
+  {
+    "id": 3,
+    "category": "Cardiology",
+    "question": "According to standard clinical guidelines, what blood pressure reading defines Stage 1 Hypertension?",
+    "options": [
+      "110/70 mmHg",
+      "120/80 mmHg",
+      "130-139 / 80-89 mmHg",
+      "160/100 mmHg"
+    ],
+    "correctAnswer": 2,
+    "explanation": "AHA/ACC guidelines define Stage 1 hypertension as systolic BP between 130–139 mmHg or diastolic BP between 80–89 mmHg."
+  },
+  {
+    "id": 4,
+    "category": "Cardiology",
+    "question": "The 'P wave' on a standard electrocardiogram (ECG) represents which cardiac physiological event?",
+    "options": [
+      "Ventricular depolarization",
+      "Atrial depolarization",
+      "Ventricular repolarization",
+      "Atrial repolarization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The P wave corresponds to the electrical wave of atrial depolarization spreading from the sinoatrial (SA) node across both atria."
+  },
+  {
+    "id": 5,
+    "category": "Cardiology",
+    "question": "Which anatomical structure is termed the primary physiological pacemaker of the human heart?",
+    "options": [
+      "Atrioventricular (AV) node",
+      "Bundle of His",
+      "Sinoatrial (SA) node",
+      "Purkinje fibers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Sinoatrial (SA) node, situated in the upper wall of the right atrium, exhibits the highest spontaneous intrinsic rate of depolarization (60-100 bpm)."
+  },
+  {
+    "id": 6,
+    "category": "Cardiology",
+    "question": "What is the primary pathophysiology underlying acute myocardial infarction (heart attack)?",
+    "options": [
+      "Infection of heart valves",
+      "Rupture of atherosclerotic plaque leading to coronary thrombosis",
+      "Dilatation of thoracic aorta",
+      "Autoimmune destruction of pericardium"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Most acute myocardial infarctions result from the rupture or erosion of a coronary atherosclerotic plaque, triggering immediate platelet aggregation and occlusive thrombus formation."
+  },
+  {
+    "id": 7,
+    "category": "Cardiology",
+    "question": "The first heart sound (S1, 'lub') is produced primarily by the closure of which valves?",
+    "options": [
+      "Aortic and pulmonary valves",
+      "Mitral and tricuspid (AV) valves",
+      "Aortic and mitral valves",
+      "Tricuspid and pulmonary valves"
+    ],
+    "correctAnswer": 1,
+    "explanation": "S1 marks the onset of ventricular systole caused by the sudden closure of the atrioventricular (mitral and tricuspid) valves."
+  },
+  {
+    "id": 8,
+    "category": "Cardiology",
+    "question": "Which cardiac biomarker is considered the gold standard for laboratory diagnosis of myocardial necrosis?",
+    "options": [
+      "Alanine transaminase (ALT)",
+      "Cardiac Troponin I or T",
+      "Alkaline phosphatase",
+      "Amylase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cardiac Troponin I and T are highly sensitive and specific structural proteins released into the bloodstream upon myocardial cell necrosis."
+  },
+  {
+    "id": 9,
+    "category": "Pulmonology",
+    "question": "Which component of pulmonary surfactant prevents alveolar collapse (atelectasis) at the end of expiration?",
+    "options": [
+      "Albumin",
+      "Dipalmitoylphosphatidylcholine (DPPC)",
+      "Hemoglobin",
+      "Mucin glycoprotein"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DPPC is the major phospholipid component of surfactant secreted by Type II pneumocytes that significantly reduces alveolar surface tension."
+  },
+  {
+    "id": 10,
+    "category": "Pulmonology",
+    "question": "What spirometric finding is hallmark of an obstructive lung defect such as Asthma or COPD?",
+    "options": [
+      "Increased FEV1/FVC ratio (>0.85)",
+      "Reduced FEV1/FVC ratio (<0.70)",
+      "Increased forced vital capacity",
+      "Normal peak expiratory flow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Airflow obstruction impairs expiratory velocity, resulting in an FEV1/FVC ratio reduced below 0.70 (or below the lower limit of normal)."
+  },
+  {
+    "id": 11,
+    "category": "Pulmonology",
+    "question": "In human respiration, where does the majority of oxygen-carbon dioxide gas exchange occur?",
+    "options": [
+      "Trachea",
+      "Terminal bronchioles",
+      "Alveoli",
+      "Segmental bronchi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The alveoli provide a massive surface area (~70-100 m²) with ultrathin alveolar-capillary membranes for passive gas diffusion."
+  },
+  {
+    "id": 12,
+    "category": "Pulmonology",
+    "question": "What is the principal respiratory drive stimulus in a healthy individual breathing room air?",
+    "options": [
+      "Low arterial oxygen tension (PaO2)",
+      "High arterial carbon dioxide tension (PaCO2)",
+      "Elevated blood nitrogen levels",
+      "Low blood glucose"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Central chemoreceptors in the medulla oblongata are exquisitely sensitive to hypercapnia (elevated PaCO2 / lowered CSF pH), driving ventilation."
+  },
+  {
+    "id": 13,
+    "category": "Pulmonology",
+    "question": "Which type of pneumocyte in the lung alveoli is primarily responsible for gas diffusion across the blood-air barrier?",
+    "options": [
+      "Type I pneumocyte",
+      "Type II pneumocyte",
+      "Clara / Club cells",
+      "Goblet cells"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Type I pneumocytes are extremely flattened squamoid epithelial cells that cover ~95% of the alveolar surface and facilitate rapid gas diffusion."
+  },
+  {
+    "id": 14,
+    "category": "Pulmonology",
+    "question": "A patient presents with sudden pleuritic chest pain, dyspnea, and hyperresonance with absent breath sounds over the right hemithorax. What is the most likely diagnosis?",
+    "options": [
+      "Pulmonary edema",
+      "Pneumothorax",
+      "Pleural effusion",
+      "Lobar consolidation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pneumothorax (air in the pleural cavity) leads to lung collapse, producing hyperresonance on percussion and decreased or absent breath sounds on auscultation."
+  },
+  {
+    "id": 15,
+    "category": "Endocrinology",
+    "question": "Which specific cells in the islets of Langerhans of the pancreas synthesize and secrete insulin?",
+    "options": [
+      "Alpha cells",
+      "Beta cells",
+      "Delta cells",
+      "PP cells"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pancreatic beta cells comprise the majority of islet endocrine tissue and produce proinsulin, cleaved into mature insulin and C-peptide."
+  },
+  {
+    "id": 16,
+    "category": "Endocrinology",
+    "question": "What diagnostic laboratory test reflects the average blood glucose concentration over the preceding 2 to 3 months?",
+    "options": [
+      "Oral glucose tolerance test 1-hour",
+      "Glycated Hemoglobin (HbA1c)",
+      "Urine ketone dipstick",
+      "Fasting serum insulin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HbA1c measures the percentage of hemoglobin non-enzymatically bound to glucose, reflecting circulating glycemic control over the 120-day erythrocyte lifespan."
+  },
+  {
+    "id": 17,
+    "category": "Endocrinology",
+    "question": "Which hormone produced by the anterior pituitary gland stimulates the thyroid gland to secrete T3 and T4?",
+    "options": [
+      "Thyrotropin-releasing hormone (TRH)",
+      "Thyroid-stimulating hormone (TSH)",
+      "Adrenocorticotropic hormone (ACTH)",
+      "Prolactin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TSH (thyrotropin) is released by anterior pituitary thyrotrophs in response to hypothalamic TRH and triggers follicular thyroid hormone synthesis."
+  },
+  {
+    "id": 18,
+    "category": "Endocrinology",
+    "question": "Graves' disease is the most common cause of hyperthyroidism. What is its pathophysiological mechanism?",
+    "options": [
+      "Iodine deficiency in drinking water",
+      "Autoantibodies stimulating the TSH receptor (TSI)",
+      "Destruction of thyroid gland by cytotoxic T-cells",
+      "Pituitary adenoma secreting excess cortisol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Thyroid-stimulating immunoglobulins (TSI) bind to and activate the TSH receptor on thyroid follicular cells, leading to unregulated autonomous production of thyroid hormones."
+  },
+  {
+    "id": 19,
+    "category": "Endocrinology",
+    "question": "Which hormone regulates extracellular fluid calcium concentration by increasing bone resorption and renal calcium reabsorption?",
+    "options": [
+      "Calcitonin",
+      "Parathyroid Hormone (PTH)",
+      "Aldosterone",
+      "Vasopressin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PTH elevates serum calcium levels by stimulating osteoclastic bone resorption, increasing renal distal tubular calcium reabsorption, and activating vitamin D."
+  },
+  {
+    "id": 20,
+    "category": "Endocrinology",
+    "question": "Which layer of the adrenal cortex is responsible for synthesizing mineralocorticoids like aldosterone?",
+    "options": [
+      "Zona glomerulosa",
+      "Zona fasciculata",
+      "Zona reticularis",
+      "Adrenal medulla"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The outermost layer of the adrenal cortex, the zona glomerulosa, produces aldosterone under the influence of angiotensin II and extracellular potassium."
+  },
+  {
+    "id": 21,
+    "category": "Neurology",
+    "question": "Which cranial nerve (CN) carries parasympathetic innervation to thoracic and abdominal viscera including the heart and gastrointestinal tract?",
+    "options": [
+      "CN V (Trigeminal)",
+      "CN VII (Facial)",
+      "CN X (Vagus)",
+      "CN XII (Hypoglossal)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cranial Nerve X, the Vagus nerve, is the principal conduit of the cranial parasympathetic system, supplying the larynx, trachea, heart, stomach, and intestines."
+  },
+  {
+    "id": 22,
+    "category": "Neurology",
+    "question": "In the acute assessment of suspected ischemic stroke, what does the FAST acronym represent?",
+    "options": [
+      "Fever, Airway, Sensation, Temperature",
+      "Face drooping, Arm weakness, Speech difficulty, Time to call emergency",
+      "Foot pain, Abdomen rigidity, Sleepiness, Tachypnea",
+      "Focus, Alertness, Strength, Tone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "FAST stands for Face drooping, Arm weakness, Speech difficulty, and Time to act/call emergency services, facilitating rapid prehospital stroke identification."
+  },
+  {
+    "id": 23,
+    "category": "Neurology",
+    "question": "What is the primary excitatory neurotransmitter in the mammalian central nervous system?",
+    "options": [
+      "GABA",
+      "Glycine",
+      "Glutamate",
+      "Dopamine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Glutamate is the predominant excitatory amino acid neurotransmitter in the brain and spinal cord, acting through NMDA, AMPA, and kainate receptors."
+  },
+  {
+    "id": 24,
+    "category": "Neurology",
+    "question": "Where is cerebrospinal fluid (CSF) primarily synthesized in the human brain?",
+    "options": [
+      "Arachnoid granulations",
+      "Choroid plexus",
+      "Substantia nigra",
+      "Corpus callosum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Choroid plexuses situated within the lateral, third, and fourth cerebral ventricles produce the majority of cerebrospinal fluid through active secretion and filtration."
+  },
+  {
+    "id": 25,
+    "category": "Neurology",
+    "question": "Loss of dopaminergic neurons in which brainstem region is the cardinal pathological hallmark of Parkinson's disease?",
+    "options": [
+      "Locus coeruleus",
+      "Substantia nigra pars compacta",
+      "Nucleus accumbens",
+      "Red nucleus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Degeneration of pigmented dopaminergic neurons in the substantia nigra pars compacta causes dopamine depletion in the striatum, producing tremor, rigidity, and bradykinesia."
+  },
+  {
+    "id": 26,
+    "category": "Neurology",
+    "question": "Which lobe of the cerebral cortex houses the primary visual cortex (Brodmann area 17)?",
+    "options": [
+      "Frontal lobe",
+      "Parietal lobe",
+      "Temporal lobe",
+      "Occipital lobe"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The occipital lobe, specifically the calcarine sulcus cortex, processes retinotopic visual afferent inputs from the lateral geniculate nucleus."
+  },
+  {
+    "id": 27,
+    "category": "Gastroenterology",
+    "question": "Which digestive enzyme initiated in the stomach requires an acidic pH (hydrochloric acid) for its conversion from an inactive zymogen?",
+    "options": [
+      "Trypsin",
+      "Pepsin",
+      "Amylase",
+      "Lipase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pepsinogen secreted by gastric chief cells is cleaved into active proteolytic pepsin in the presence of gastric acid (pH 1.5–2.5) secreted by parietal cells."
+  },
+  {
+    "id": 28,
+    "category": "Gastroenterology",
+    "question": "What anatomical duct conveys bile and pancreatic juice into the second part of the duodenum?",
+    "options": [
+      "Cystic duct",
+      "Hepatopancreatic ampulla (Ampulla of Vater)",
+      "Thoracic duct",
+      "Stensen's duct"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The common bile duct and main pancreatic duct unite at the ampulla of Vater, regulated by the sphincter of Oddi, entering the duodenum."
+  },
+  {
+    "id": 29,
+    "category": "Gastroenterology",
+    "question": "Which bacterial pathogen is the most frequent etiologic agent of chronic active gastritis and peptic ulcer disease?",
+    "options": [
+      "Escherichia coli",
+      "Helicobacter pylori",
+      "Clostridioides difficile",
+      "Salmonella enterica"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Helicobacter pylori colonizes the gastric antral mucosa, producing urease and inflammatory cytotoxins that compromise mucosal resistance to acid."
+  },
+  {
+    "id": 30,
+    "category": "Gastroenterology",
+    "question": "Where in the human alimentary canal does the primary absorption of Vitamin B12 and bile salts take place?",
+    "options": [
+      "Duodenum",
+      "Jejunum",
+      "Terminal ileum",
+      "Ascending colon"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The terminal ileum contains specialized cubilin-amnionless receptors for intrinsic factor-cobalamin complexes as well as sodium-dependent bile acid transporters."
+  },
+  {
+    "id": 31,
+    "category": "Gastroenterology",
+    "question": "Which blood vessel delivers nutrient-rich deoxygenated venous blood from the intestines directly to the liver?",
+    "options": [
+      "Hepatic artery",
+      "Hepatic portal vein",
+      "Inferior vena cava",
+      "Renal vein"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The hepatic portal vein, formed by the union of the superior mesenteric and splenic veins, channels ~75% of liver blood inflow containing absorbed nutrients."
+  },
+  {
+    "id": 32,
+    "category": "Nephrology",
+    "question": "What is the functional microscopic filtration unit of the human kidney?",
+    "options": [
+      "Renal pelvis",
+      "Nephron",
+      "Major calyx",
+      "Ureter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Each kidney contains approximately 1 million nephrons, consisting of a renal corpuscle (glomerulus and Bowman's capsule) and specialized tubular segments."
+  },
+  {
+    "id": 33,
+    "category": "Nephrology",
+    "question": "What normal glomerular filtration rate (GFR) value in mL/min/1.73m² indicates preserved kidney function in young healthy adults?",
+    "options": [
+      "15-29",
+      "30-59",
+      "60-89",
+      "≥ 90"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A GFR of 90 mL/min/1.73m² or higher is considered normal or optimal renal function in healthy young adults."
+  },
+  {
+    "id": 34,
+    "category": "Nephrology",
+    "question": "Which hormone synthesized by the juxtaglomerular apparatus of the kidney initiates the renin-angiotensin-aldosterone cascade?",
+    "options": [
+      "Erythropoietin",
+      "Renin",
+      "Calcitriol",
+      "Antidiuretic hormone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Renin is an enzymatic hormone released in response to decreased renal perfusion pressure, sympathetic activation, or low sodium chloride delivery to the macula densa."
+  },
+  {
+    "id": 35,
+    "category": "Nephrology",
+    "question": "What is the most prevalent chemical composition of renal calculi (kidney stones) globally?",
+    "options": [
+      "Calcium oxalate",
+      "Uric acid",
+      "Struvite (magnesium ammonium phosphate)",
+      "Cystine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Calcium oxalate stones account for approximately 70-80% of all diagnosed kidney stone cases."
+  },
+  {
+    "id": 36,
+    "category": "Hematology",
+    "question": "Which formed element of blood is an anucleate cytoplasmic fragment derived from bone marrow megakaryocytes?",
+    "options": [
+      "Neutrophil",
+      "Erythrocyte",
+      "Platelet (Thrombocyte)",
+      "Lymphocyte"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Platelets are disk-shaped cellular fragments shed from mature megakaryocytes, essential for primary hemostatic plug formation."
+  },
+  {
+    "id": 37,
+    "category": "Hematology",
+    "question": "Which blood group type is universally regarded as the universal red blood cell donor for emergency transfusions?",
+    "options": [
+      "A positive",
+      "AB positive",
+      "O negative",
+      "B negative"
+    ],
+    "correctAnswer": 2,
+    "explanation": "O negative red blood cells lack A, B, and Rh(D) surface antigens on their erythrocyte membranes, minimizing immediate immune-mediated hemolytic transfusion reactions."
+  },
+  {
+    "id": 38,
+    "category": "Hematology",
+    "question": "What type of nutritional anemia is characterized by a low mean corpuscular volume (MCV < 80 fL) and microcytic hypochromic red cells?",
+    "options": [
+      "Pernicious anemia",
+      "Folate deficiency anemia",
+      "Iron deficiency anemia",
+      "Aplastic anemia"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Iron deficiency restricts heme synthesis, resulting in small (microcytic) and pale (hypochromic) erythrocytes with low serum ferritin."
+  },
+  {
+    "id": 39,
+    "category": "Immunology",
+    "question": "Which class of immunoglobulin is the only one capable of crossing the human placenta to confer passive immunity to the fetus?",
+    "options": [
+      "IgA",
+      "IgM",
+      "IgE",
+      "IgG"
+    ],
+    "correctAnswer": 3,
+    "explanation": "IgG antibodies bind to the neonatal Fc receptor (FcRn) on syncytiotrophoblasts, enabling active transplacental transfer during pregnancy."
+  },
+  {
+    "id": 40,
+    "category": "Immunology",
+    "question": "Which antibody is the predominant secretory isotype found in colostrum, saliva, tears, and gastrointestinal mucus?",
+    "options": [
+      "IgA",
+      "IgD",
+      "IgE",
+      "IgM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dimeric Secretory IgA (sIgA) protects mucosal epithelial surfaces against pathogen adhesion and colonization."
+  },
+  {
+    "id": 41,
+    "category": "Pharmacology",
+    "question": "What is the primary mechanism of action of beta-blockers such as Atenolol or Metoprolol?",
+    "options": [
+      "Stimulation of adrenergic alpha receptors",
+      "Competitive antagonism of beta-1 adrenergic receptors reducing cardiac chronotropy and inotropy",
+      "Direct activation of calcium ion channels",
+      "Inhibition of bacterial protein synthesis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Beta-1 blockers bind competitively to cardiac beta-1 receptors, decreasing heart rate, myocardial contractility, and cardiac output."
+  },
+  {
+    "id": 42,
+    "category": "Pharmacology",
+    "question": "Which class of antimicrobial agents acts by inhibiting bacterial DNA gyrase (topoisomerase II)?",
+    "options": [
+      "Fluoroquinolones (e.g. Ciprofloxacin)",
+      "Macrolides (e.g. Azithromycin)",
+      "Aminoglycosides (e.g. Gentamicin)",
+      "Cephalosporins (e.g. Ceftriaxone)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fluoroquinolones inhibit bacterial DNA gyrase and topoisomerase IV, preventing DNA replication and transcription."
+  },
+  {
+    "id": 43,
+    "category": "Pharmacology",
+    "question": "What serious adverse effect is classically associated with high-dose acute Paracetamol (Acetaminophen) toxicity?",
+    "options": [
+      "Acute tubular necrosis only",
+      "Severe hepatotoxicity and acute liver failure due to NAPQI accumulation",
+      "Aplastic anemia",
+      "Permanent visual blindness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Excess acetaminophen saturates glucuronidation pathways, generating toxic NAPQI which depletes hepatic glutathione and triggers hepatocellular necrosis."
+  },
+  {
+    "id": 44,
+    "category": "Pharmacology",
+    "question": "Aspirin exerts its antiplatelet and antithrombotic effects through the irreversible inhibition of which enzyme?",
+    "options": [
+      "Phosphodiesterase",
+      "Cyclooxygenase-1 (COX-1)",
+      "Angiotensin converting enzyme",
+      "HMG-CoA reductase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aspirin acetylates a serine residue in COX-1, permanently preventing platelet synthesis of thromboxane A2 for the lifetime of the platelet."
+  },
+  {
+    "id": 45,
+    "category": "Pharmacology",
+    "question": "Which vitamin is administered as the standard specific antidote for Warfarin anticoagulant toxicity?",
+    "options": [
+      "Vitamin C",
+      "Vitamin K1 (Phytonadione)",
+      "Vitamin D3",
+      "Vitamin B12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Warfarin inhibits vitamin K epoxide reductase; exogenous Vitamin K1 bypasses this blockade to restore coagulation factors II, VII, IX, and X."
+  },
+  {
+    "id": 46,
+    "category": "Pharmacology",
+    "question": "What adverse effect commonly occurs with Angiotensin Converting Enzyme (ACE) inhibitors due to bradykinin accumulation?",
+    "options": [
+      "Dry persistent cough",
+      "Severe bradycardia",
+      "Hypoglycemia",
+      "Alopecia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ACE degrades bradykinin; inhibition leads to bradykinin and substance P accumulation in the respiratory tract, triggering a chronic dry cough in 10-15% of patients."
+  },
+  {
+    "id": 47,
+    "category": "Pharmacology",
+    "question": "Nitroglycerin provides rapid relief in stable angina pectoris primarily by which mechanism?",
+    "options": [
+      "Peripheral venodilation reducing cardiac preload and myocardial oxygen demand",
+      "Direct coronary vasoconstriction",
+      "Increasing systemic vascular resistance",
+      "Slowing electrical conduction through AV node"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nitroglycerin is converted to nitric oxide, causing systemic venodilation that reduces venous return (preload) and myocardial wall tension."
+  },
+  {
+    "id": 48,
+    "category": "Pharmacology",
+    "question": "Which broad-spectrum antibiotic class is contraindicated in children and pregnant women due to risk of teeth discoloration and bone growth inhibition?",
+    "options": [
+      "Penicillins",
+      "Tetracyclines",
+      "Macrolides",
+      "Carbapenems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tetracyclines chelate calcium ions, depositing in calcifying bones and unerupted teeth, causing permanent yellowish-brown staining and enamel hypoplasia."
+  },
+  {
+    "id": 49,
+    "category": "Infectious Disease",
+    "question": "Which protozoan parasite causes the most severe and lethal form of human malaria, known as cerebral malaria?",
+    "options": [
+      "Plasmodium vivax",
+      "Plasmodium falciparum",
+      "Plasmodium malariae",
+      "Plasmodium ovale"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plasmodium falciparum cytoadheres to microvascular endothelium via PfEMP1, sequestering parasitized red cells in brain capillaries."
+  },
+  {
+    "id": 50,
+    "category": "Infectious Disease",
+    "question": "What vector mosquito transmits Dengue, Chikungunya, and Zika viruses, characteristically biting during daytime hours?",
+    "options": [
+      "Anopheles culicifacies",
+      "Aedes aegypti",
+      "Culex quinquefasciatus",
+      "Mansonia uniformis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aedes aegypti mosquitoes are daytime feeders that breed in artificial clean freshwater containers near human dwellings."
+  },
+  {
+    "id": 51,
+    "category": "Infectious Disease",
+    "question": "Which bacterium causes pulmonary Tuberculosis and is identified in sputum smears by Ziehl-Neelsen (Acid-Fast) staining?",
+    "options": [
+      "Streptococcus pneumoniae",
+      "Mycobacterium tuberculosis",
+      "Klebsiella pneumoniae",
+      "Legionella pneumophila"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mycobacterium tuberculosis has a high cell wall mycolic acid lipid content, rendering it resistant to conventional Gram staining and acid-fast."
+  },
+  {
+    "id": 52,
+    "category": "Infectious Disease",
+    "question": "In medical microbiology, what bacterial structure confers resistance against phagocytosis by host white blood cells?",
+    "options": [
+      "Flagella",
+      "Polysaccharide capsule",
+      "Pili (fimbriae)",
+      "Mesosomes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The antiphagocytic polysaccharide capsule hides bacterial surface antigens and prevents complement deposition (e.g. S. pneumoniae, N. meningitidis)."
+  },
+  {
+    "id": 53,
+    "category": "Infectious Disease",
+    "question": "Which hepatitis virus infection is transmitted primarily via the fecal-oral route through contaminated drinking water?",
+    "options": [
+      "Hepatitis B",
+      "Hepatitis C",
+      "Hepatitis A",
+      "Hepatitis D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hepatitis A and Hepatitis E viruses are enterically transmitted non-enveloped RNA viruses causing acute, non-chronic viral hepatitis."
+  },
+  {
+    "id": 54,
+    "category": "Infectious Disease",
+    "question": "What is the standard recommended first-line post-exposure prophylaxis intervention immediately after an animal bite suspected of rabies?",
+    "options": [
+      "Cauterizing the wound with alcohol",
+      "Immediate vigorous washing of the bite wound with soap and running water for 15 minutes",
+      "Immediate surgical suturing of the wound",
+      "Covering the wound tightly with airtight bandage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Immediate, thorough wound washing with soap and water removes the majority of rabies virions from the inoculation site before neural entry."
+  },
+  {
+    "id": 55,
+    "category": "Infectious Disease",
+    "question": "Which diagnostic serological marker is the first to appear in the bloodstream during acute Hepatitis B viral infection?",
+    "options": [
+      "Hepatitis B surface antibody (anti-HBs)",
+      "Hepatitis B surface antigen (HBsAg)",
+      "Hepatitis B core antibody IgG (anti-HBc IgG)",
+      "Hepatitis B e antibody (anti-HBe)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HBsAg is detectable in serum 1 to 10 weeks after HBV exposure and signifies active viral replication."
+  },
+  {
+    "id": 56,
+    "category": "Infectious Disease",
+    "question": "Typhoid fever (enteric fever) is primarily diagnosed in the first week of clinical symptoms by which laboratory method?",
+    "options": [
+      "Widal agglutination test",
+      "Blood culture",
+      "Stool microscopy for ova",
+      "Chest X-ray"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Blood culture is the diagnostic gold standard for Salmonella Typhi, positive in 80–90% of patients during the first week of illness."
+  },
+  {
+    "id": 57,
+    "category": "Rheumatology & Musculoskeletal",
+    "question": "Which crystalline compound deposits within joint synovial spaces to trigger acute attacks of podagra in Gout?",
+    "options": [
+      "Calcium pyrophosphate dihydrate",
+      "Monosodium urate (MSU)",
+      "Cholesterol crystals",
+      "Basic calcium phosphate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Needle-shaped, negatively birefringent monosodium urate crystals precipitate in joints when serum uric acid exceeds physiological saturation (>6.8 mg/dL)."
+  },
+  {
+    "id": 58,
+    "category": "Rheumatology & Musculoskeletal",
+    "question": "What structural protein is the most abundant extracellular matrix protein found in human bones, tendons, and skin?",
+    "options": [
+      "Elastin",
+      "Keratin",
+      "Collagen",
+      "Actin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Collagen accounts for roughly 30% of total bodily protein content, with Type I collagen predominant in bone, dermis, and tendons."
+  },
+  {
+    "id": 59,
+    "category": "Rheumatology & Musculoskeletal",
+    "question": "Which diagnostic imaging modality is the investigation of choice for evaluating acute soft-tissue injuries such as knee anterior cruciate ligament (ACL) tears?",
+    "options": [
+      "Conventional plain Radiography (X-Ray)",
+      "Magnetic Resonance Imaging (MRI)",
+      "Bone Scintigraphy",
+      "Computed Tomography without contrast"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MRI provides superior soft-tissue contrast resolution, clearly demonstrating ligamentous disruption, meniscal tears, and bone marrow edema."
+  },
+  {
+    "id": 60,
+    "category": "Rheumatology & Musculoskeletal",
+    "question": "What is the typical clinical manifestation of Osteoarthritis compared to Rheumatoid Arthritis regarding morning stiffness?",
+    "options": [
+      "Stiffness lasts more than 2 hours",
+      "Morning stiffness typically resolves within 30 minutes and worsens with joint use",
+      "No stiffness at any time",
+      "Symmetrical swelling of MCP joints"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Osteoarthritis features mechanical wear-and-tear pain exacerbated by weight-bearing with brief morning gel phenomenon (<30 minutes)."
+  },
+  {
+    "id": 61,
+    "category": "Rheumatology & Musculoskeletal",
+    "question": "The Heberden's nodes characteristically seen in advanced Osteoarthritis are located at which joints?",
+    "options": [
+      "Metacarpophalangeal (MCP) joints",
+      "Proximal interphalangeal (PIP) joints",
+      "Distal interphalangeal (DIP) joints",
+      "Wrist carpal joints"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Heberden's nodes are bony osteophytic enlargements located at the distal interphalangeal (DIP) joints of the fingers."
+  },
+  {
+    "id": 62,
+    "category": "Dermatology",
+    "question": "Which epidermal layer in human skin contains actively proliferating, mitotically active keratinocyte stem cells?",
+    "options": [
+      "Stratum corneum",
+      "Stratum lucidum",
+      "Stratum basale (germinativum)",
+      "Stratum granulosum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Stratum basale is the deepest, single-cell layer of the epidermis resting on the basement membrane where keratinocytes divide and replenish outer layers."
+  },
+  {
+    "id": 63,
+    "category": "Dermatology",
+    "question": "What is the classical clinical presentation of chronic plaque Psoriasis?",
+    "options": [
+      "Itchy vesicles on an erythematous base",
+      "Well-demarcated erythematous plaques covered with silvery-white scales",
+      "Targetoid concentric rings on palms",
+      "Subcutaneous fluctuant nodules"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Psoriasis vulgaris presents with sharply demarcated salmon-pink plaques with micaceous silvery scales, characteristically over extensor surfaces (knees, elbows)."
+  },
+  {
+    "id": 64,
+    "category": "Dermatology",
+    "question": "The 'A-B-C-D-E' mnemonic used in clinical dermatology aids in the early detection of which dangerous skin malignancy?",
+    "options": [
+      "Basal Cell Carcinoma",
+      "Squamous Cell Carcinoma",
+      "Malignant Melanoma",
+      "Seborrheic Keratosis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ABCDE stands for Asymmetry, Border irregularity, Color variegation, Diameter (>6mm), and Evolution/Enlargement, identifying malignant melanoma."
+  },
+  {
+    "id": 65,
+    "category": "Dermatology",
+    "question": "Which microorganism is the predominant commensal bacterium residing on human skin that plays a role in acne vulgaris pathogenesis?",
+    "options": [
+      "Staphylococcus aureus",
+      "Cutibacterium acnes",
+      "Streptococcus pyogenes",
+      "Pseudomonas aeruginosa"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cutibacterium acnes proliferates in obstructed pilosebaceous units, metabolizing sebum into chemotactic fatty acids that stimulate local inflammation."
+  },
+  {
+    "id": 66,
+    "category": "Nutrition, Public Health & First Aid",
+    "question": "According to basic life support (BLS) guidelines, what is the recommended adult chest compression-to-ventilation ratio for single rescuer CPR?",
+    "options": [
+      "15 compressions to 2 breaths",
+      "30 compressions to 2 breaths",
+      "50 compressions to 5 breaths",
+      "Continuous breaths without compression"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AHA CPR guidelines recommend a 30:2 ratio of high-quality chest compressions (at least 100-120 cpm, depth of 5-6 cm) to rescue breaths."
+  },
+  {
+    "id": 67,
+    "category": "Nutrition, Public Health & First Aid",
+    "question": "Deficiency of which water-soluble vitamin causes Scurvy, characterized by bleeding gums and impaired wound healing?",
+    "options": [
+      "Vitamin B1 (Thiamine)",
+      "Vitamin C (Ascorbic Acid)",
+      "Vitamin B6 (Pyridoxine)",
+      "Vitamin B3 (Niacin)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vitamin C is an indispensable cofactor for prolyl and lysyl hydroxylases necessary for stable collagen triple-helix cross-linking."
+  },
+  {
+    "id": 68,
+    "category": "Nutrition, Public Health & First Aid",
+    "question": "Deficiency of which fat-soluble vitamin in young children causes Rickets with skeletal deformities like bowlegs?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin K"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vitamin D deficiency impairs intestinal calcium and phosphate absorption, leading to defective mineralization of growing epiphyseal growth plates in children."
+  },
+  {
+    "id": 69,
+    "category": "Nutrition, Public Health & First Aid",
+    "question": "Night blindness (nyctalopia) and Bitot's spots on conjunctiva are clinical signs of deficiency of which nutrient?",
+    "options": [
+      "Vitamin A (Retinol)",
+      "Vitamin B12",
+      "Folic acid",
+      "Zinc"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vitamin A is essential for the synthesis of rhodopsin in retinal rod photoreceptor cells and for maintaining conjunctival mucosal integrity."
+  },
+  {
+    "id": 70,
+    "category": "Nutrition, Public Health & First Aid",
+    "question": "What is the primary electrolyte that determines extracellular fluid (ECF) osmolality and tonicity?",
+    "options": [
+      "Potassium",
+      "Sodium",
+      "Calcium",
+      "Magnesium"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sodium (normal range 135–145 mEq/L) and its attendant anions (chloride, bicarbonate) account for >90% of total extracellular fluid osmotic pressure."
+  },
+  {
+    "id": 71,
+    "category": "Nutrition, Public Health & First Aid",
+    "question": "Which vitamin is routinely administered to all newborn infants shortly after birth to prevent hemorrhagic disease of the newborn?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin K",
+      "Vitamin E"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Newborns have low hepatic stores and an immature sterile gut flora; intramuscular Vitamin K1 prevents early and late vitamin K deficiency bleeding (VKDB)."
+  },
+  {
+    "id": 72,
+    "category": "Nutrition, Public Health & First Aid",
+    "question": "What is the physiological role of the hormone Erythropoietin (EPO)?",
+    "options": [
+      "Regulation of blood pressure",
+      "Stimulation of bone marrow red blood cell (erythrocyte) production",
+      "Enhancement of bone mineralization",
+      "Facilitation of glucose entry into skeletal muscle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Synthesized primarily by renal interstitial peritubular fibroblasts in response to tissue hypoxia, EPO stimulates erythroid precursor maturation."
+  },
+  {
+    "id": 73,
+    "category": "Nutrition, Public Health & First Aid",
+    "question": "What is the standard compression depth for high-quality adult CPR according to resuscitation guidelines?",
+    "options": [
+      "At least 2 inches (5 cm) but no more than 2.4 inches (6 cm)",
+      "At least 1 inch (2.5 cm)",
+      "At least 3.5 inches (9 cm)",
+      "Depth does not matter as long as rate is fast"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Current guidelines mandate a compression depth of at least 5 cm (2 inches) while avoiding excessive depths exceeding 6 cm to prevent thoracic trauma."
+  },
+  {
+    "id": 74,
+    "category": "Anatomy",
+    "question": "What is the standard anatomical term for the kneecap bone?",
+    "options": [
+      "Femur",
+      "Patella",
+      "Tibia",
+      "Fibula"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patella is the large sesamoid bone situated within the quadriceps femoris tendon protecting the knee joint."
+  },
+  {
+    "id": 75,
+    "category": "Gastroenterology",
+    "question": "Which organ stores and concentrates bile produced by the liver prior to secretion into the duodenum?",
+    "options": [
+      "Spleen",
+      "Gallbladder",
+      "Pancreas",
+      "Stomach"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The gallbladder serves as the reservoir that concentrates hepatic bile up to 10-fold until cholecystokinin triggers contraction."
+  },
+  {
+    "id": 76,
+    "category": "Endocrinology",
+    "question": "What is the medical term for low blood sugar concentration (<70 mg/dL)?",
+    "options": [
+      "Hyperglycemia",
+      "Hypoglycemia",
+      "Glucosuria",
+      "Ketonemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hypoglycemia is defined as a serum glucose concentration below 70 mg/dL accompanied by neuroglycopenic and autonomic symptoms."
+  },
+  {
+    "id": 77,
+    "category": "Cardiology",
+    "question": "Which blood vessel carries deoxygenated blood from the upper extremities and head into the right atrium?",
+    "options": [
+      "Inferior vena cava",
+      "Superior vena cava",
+      "Azygos vein",
+      "Subclavian artery"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The superior vena cava drains venous blood from the head, neck, upper limbs, and thorax into the right atrium."
+  },
+  {
+    "id": 78,
+    "category": "Hematology",
+    "question": "What is the main function of red blood cells (erythrocytes)?",
+    "options": [
+      "Fighting viral infections",
+      "Clotting blood",
+      "Carrying oxygen to bodily tissues via hemoglobin",
+      "Synthesizing antibodies"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Biconcave red blood cells are densely packed with hemoglobin molecules specialized for reversible oxygen loading and delivery."
+  },
+  {
+    "id": 79,
+    "category": "Gastroenterology",
+    "question": "Which organ produces the anticoagulant protein Heparin and plasma Albumin?",
+    "options": [
+      "Spleen",
+      "Kidney",
+      "Liver",
+      "Thymus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The liver synthesizes almost all circulating plasma proteins, including albumin, fibrinogen, and prothrombin."
+  },
+  {
+    "id": 80,
+    "category": "Anatomy",
+    "question": "What type of joint is the human shoulder or hip joint categorized as?",
+    "options": [
+      "Hinge joint",
+      "Pivot joint",
+      "Ball-and-socket joint",
+      "Saddle joint"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ball-and-socket (enarthrodial) joints permit multiaxial movement across sagittal, coronal, and transverse planes."
+  },
+  {
+    "id": 81,
+    "category": "General Medicine",
+    "question": "What is the normal oral body temperature in healthy humans in degrees Celsius?",
+    "options": [
+      "35.0 °C",
+      "37.0 °C (approx 98.6 °F)",
+      "39.5 °C",
+      "41.0 °C"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Core normothermia averages 37.0 °C (98.6 °F) with a normal diurnal variation of approximately ±0.5 °C."
+  },
+  {
+    "id": 82,
+    "category": "Immunology",
+    "question": "What is the primary function of the lymphatic system?",
+    "options": [
+      "Pumping arterial blood",
+      "Returning interstitial fluid to venous blood and immune surveillance",
+      "Filtering urea from urine",
+      "Digesting starch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lymphatic capillaries absorb excess tissue fluid and transport lymph through lymphoid nodes for antigen presentation."
+  },
+  {
+    "id": 83,
+    "category": "Nephrology",
+    "question": "What is the medical term for high blood potassium level (>5.0 mEq/L)?",
+    "options": [
+      "Hypocalcemia",
+      "Hyperkalemia",
+      "Hypernatremia",
+      "Hyponatremia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hyperkalemia represents an elevated serum potassium level that can induce life-threatening cardiac arrhythmias."
+  },
+  {
+    "id": 84,
+    "category": "General Science",
+    "question": "Which organelle is universally known as the powerhouse of eukaryotic cells generating ATP?",
+    "options": [
+      "Endoplasmic reticulum",
+      "Mitochondria",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mitochondria produce the majority of cellular adenosine triphosphate (ATP) via the tricarboxylic acid cycle and oxidative phosphorylation."
+  },
+  {
+    "id": 85,
+    "category": "Hematology",
+    "question": "What is the primary role of platelets in hemostasis?",
+    "options": [
+      "Engulfing pathogenic bacteria",
+      "Forming the primary platelet plug at vascular injury sites",
+      "Synthesizing albumin",
+      "Transporting hormones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Upon endothelial injury, platelets adhere to subendothelial von Willebrand factor, activate, and aggregate to form a mechanical plug."
+  },
+  {
+    "id": 86,
+    "category": "Gastroenterology",
+    "question": "Which enzyme breaks down dietary starch into maltose and dextrins in the mouth?",
+    "options": [
+      "Pepsin",
+      "Salivary amylase (ptyalin)",
+      "Trypsin",
+      "Lactase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Salivary alpha-amylase initiates carbohydrate digestion by hydrolyzing alpha-1,4-glycosidic bonds in amylose."
+  },
+  {
+    "id": 87,
+    "category": "Neurology",
+    "question": "Which cranial nerve is responsible for the sense of smell?",
+    "options": [
+      "Cranial Nerve I (Olfactory)",
+      "Cranial Nerve II (Optic)",
+      "Cranial Nerve VIII (Vestibulocochlear)",
+      "Cranial Nerve VII (Facial)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cranial Nerve I transmits sensory olfactory signals from the nasal neuroepithelium across the cribriform plate to the olfactory bulb."
+  },
+  {
+    "id": 88,
+    "category": "Endocrinology",
+    "question": "Which hormone stimulates uterine contractions during labor and milk ejection during breastfeeding?",
+    "options": [
+      "Prolactin",
+      "Oxytocin",
+      "Progesterone",
+      "Estrogen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Oxytocin, synthesized in the paraventricular nucleus of the hypothalamus and secreted by the posterior pituitary, stimulates myometrial and myoepithelial contractions."
+  },
+  {
+    "id": 89,
+    "category": "Gastroenterology",
+    "question": "What is the medical term for inflammation of the liver parenchyma?",
+    "options": [
+      "Nephritis",
+      "Hepatitis",
+      "Cholecystitis",
+      "Pancreatitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hepatitis denotes inflammatory destruction of hepatocytes caused by viruses, toxins, alcohol, or autoimmunity."
+  },
+  {
+    "id": 90,
+    "category": "Cardiology",
+    "question": "What is the standard unit of measurement for blood pressure in clinical medicine?",
+    "options": [
+      "Pascals (Pa)",
+      "Millimeters of mercury (mmHg)",
+      "Atmospheres (atm)",
+      "Torr only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Blood pressure is universally calibrated and recorded in millimeters of mercury (mmHg) using sphygmomanometers."
+  },
+  {
+    "id": 91,
+    "category": "Endocrinology",
+    "question": "Which mineral is essential for the synthesis of thyroid hormones T3 and T4?",
+    "options": [
+      "Iron",
+      "Zinc",
+      "Iodine",
+      "Copper"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Iodide ions transported into thyroid follicular cells via the NIS symporter are essential building blocks for thyroxine synthesis."
+  },
+  {
+    "id": 92,
+    "category": "Immunology",
+    "question": "Which type of white blood cell is typically elevated during allergic reactions and parasitic helminth infections?",
+    "options": [
+      "Neutrophils",
+      "Eosinophils",
+      "Basophils only",
+      "Monocytes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Eosinophils release major basic protein and peroxidase against helminths and participate in allergic type I hypersensitivity."
+  },
+  {
+    "id": 93,
+    "category": "Cardiology",
+    "question": "What is the legal and clinical threshold for acute bradycardia in an adult at rest?",
+    "options": [
+      "Heart rate < 40 bpm",
+      "Heart rate < 60 bpm",
+      "Heart rate < 80 bpm",
+      "Heart rate < 90 bpm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sinus bradycardia is clinically defined as a regular rhythm originating from the SA node with a rate slower than 60 beats per minute."
+  },
+  {
+    "id": 94,
+    "category": "Cardiology",
+    "question": "Which valve separates the left atrium from the left ventricle?",
+    "options": [
+      "Tricuspid valve",
+      "Mitral (Bicuspid) valve",
+      "Aortic valve",
+      "Pulmonic valve"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The mitral or bicuspid valve has two cusps regulating unidirectionally the flow of oxygenated blood from left atrium to left ventricle."
+  },
+  {
+    "id": 95,
+    "category": "Rheumatology",
+    "question": "Which disease is characterized by progressive degeneration of articular cartilage and subchondral bone remodeling?",
+    "options": [
+      "Osteoarthritis",
+      "Osteoporosis",
+      "Rickets",
+      "Gout"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Osteoarthritis is a chronic biomechanical disease of synovial joints featuring progressive cartilage loss, osteophytes, and sclerosis."
+  },
+  {
+    "id": 96,
+    "category": "Dentistry",
+    "question": "What is the primary cause of dental caries (tooth cavities)?",
+    "options": [
+      "Genetic predisposition only",
+      "Acid production by oral bacteria fermenting dietary carbohydrates",
+      "Lack of dietary calcium",
+      "High saliva production"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Streptococcus mutans ferments refined sugars into lactic acid, dropping oral pH below 5.5 and demineralizing enamel hydroxyapatite."
+  },
+  {
+    "id": 97,
+    "category": "Hematology",
+    "question": "What diagnostic blood test measures the time it takes for blood plasma to clot via the extrinsic pathway?",
+    "options": [
+      "Activated Partial Thromboplastin Time (aPTT)",
+      "Prothrombin Time / INR (PT/INR)",
+      "Bleeding Time",
+      "Thrombin Time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prothrombin Time (PT) and International Normalized Ratio (INR) evaluate the extrinsic and common coagulation cascades (Factors VII, X, V, II, I)."
+  },
+  {
+    "id": 98,
+    "category": "ENT",
+    "question": "Which structure in the inner ear is directly responsible for converting sound vibrations into neural impulses for hearing?",
+    "options": [
+      "Semicircular canals",
+      "Organ of Corti (within the cochlea)",
+      "Tympanic membrane",
+      "Auditory tube"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hair cells within the Organ of Corti in the cochlea bend against the tectorial membrane, depolarizing cochlear nerve fibers."
+  },
+  {
+    "id": 99,
+    "category": "Metabolism",
+    "question": "What is the predominant lipid class stored in human adipose tissue as long-term energy reserves?",
+    "options": [
+      "Phospholipids",
+      "Cholesterol esters",
+      "Triglycerides (triacylglycerols)",
+      "Free fatty acids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Triglycerides stored within lipid droplets of adipocytes represent the most concentrated, water-free energy reservoir in the body."
+  },
+  {
+    "id": 100,
+    "category": "Infectious Disease",
+    "question": "Which infectious viral disease causes parotitis (painful swelling of the parotid salivary glands)?",
+    "options": [
+      "Measles",
+      "Mumps",
+      "Rubella",
+      "Varicella"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mumps virus (a paramyxovirus) classically presents with tender unilateral or bilateral inflammation of parotid glands."
+  },
+  {
+    "id": 101,
+    "category": "Neurology",
+    "question": "What is the term for a rapid, involuntary, and predictable motor response to a sensory stimulus?",
+    "options": [
+      "Voluntary movement",
+      "Reflex arc",
+      "Tremor",
+      "Tetany"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A reflex arc links a peripheral sensory receptor, afferent neuron, central synapse, efferent motor neuron, and effector muscle."
+  },
+  {
+    "id": 102,
+    "category": "Dermatology",
+    "question": "Which vitamin is synthesized in human skin upon exposure to solar Ultraviolet B (UVB) radiation?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D3 (Cholecalciferol)",
+      "Vitamin E",
+      "Vitamin K2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "UVB radiation fotochemically converts 7-dehydrocholesterol in epidermal keratinocytes into previtamin D3, isomerized to cholecalciferol."
+  },
+  {
+    "id": 103,
+    "category": "Gastroenterology",
+    "question": "What is the medical term for difficult or painful swallowing?",
+    "options": [
+      "Dyspepsia",
+      "Dysphagia",
+      "Dyspnea",
+      "Dysarthria"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dysphagia denotes impaired transit of solids or liquids from the oral cavity to the stomach."
+  },
+  {
+    "id": 104,
+    "category": "Endocrinology",
+    "question": "Which gland is located in the anterior neck below the Adam's apple and shaped like a butterfly?",
+    "options": [
+      "Pituitary gland",
+      "Thyroid gland",
+      "Adrenal gland",
+      "Parathyroid gland"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The thyroid gland consists of two lateral lobes joined by a central isthmus overlying the 2nd to 4th tracheal rings."
+  },
+  {
+    "id": 105,
+    "category": "Hematology",
+    "question": "What is the medical term for high red blood cell count or elevated hematocrit?",
+    "options": [
+      "Anemia",
+      "Polycythemia",
+      "Leukopenia",
+      "Thrombocytopenia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Polycythemia (or erythrocytosis) denotes an elevated red blood cell mass or hematocrit above the normal reference range."
+  },
+  {
+    "id": 106,
+    "category": "Neurology",
+    "question": "Which neurotransmitter deficiency at neuromuscular junctions is the target of myasthenia gravis autoantibodies?",
+    "options": [
+      "Acetylcholine (ACh) receptors",
+      "Dopamine receptors",
+      "GABA receptors",
+      "Serotonin receptors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Myasthenia gravis is mediated by autoantibodies against post-synaptic nicotinic acetylcholine receptors (AChR) on the motor endplate."
+  },
+  {
+    "id": 107,
+    "category": "General Medicine",
+    "question": "What is the clinical definition of a fever (pyrexia) measured orally?",
+    "options": [
+      "Core temperature ≥ 36.5 °C (97.7 °F)",
+      "Core temperature ≥ 38.0 °C (100.4 °F)",
+      "Core temperature ≥ 40.0 °C (104.0 °F)",
+      "Core temperature ≥ 42.0 °C (107.6 °F)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In general clinical practice, a body temperature of 38.0 °C (100.4 °F) or higher measured orally represents significant fever."
+  },
+  {
+    "id": 108,
+    "category": "Hematology",
+    "question": "Which organ filters old and damaged erythrocytes from circulation and stores platelets?",
+    "options": [
+      "Pancreas",
+      "Spleen",
+      "Gallbladder",
+      "Thymus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The splenic red pulp tests erythrocytes through cords of Billroth and endothelial slits, destroying non-deformable senescent cells."
+  },
+  {
+    "id": 109,
+    "category": "Emergency Medicine",
+    "question": "What is the primary clinical use of an Automated External Defibrillator (AED)?",
+    "options": [
+      "To measure blood glucose levels",
+      "To deliver a controlled electrical shock to treat ventricular fibrillation or pulseless VT",
+      "To stimulate breathing mechanically",
+      "To administer intravenous fluids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An AED analyzes cardiac rhythm and, if a shockable rhythm (VF or pulseless VT) is detected, delivers an electric shock to restore sinus rhythm."
+  }
+]
